@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar {
+    background-color: lightgray;
+    color: white;
+    justify-content: space-around ;
+    height: 72px;
+    margin: 0;
+}
+.nav-list{
+    list-style-type: none;
+    float: right;
+    margin-right: 20px;
+}
+.nav-list .list-item {
+    display: inline-block;
+    padding: 20px 10px;
+}
+.navbar a {
+color: white;
+text-decoration: none;
+}
+.navbar a:hover {
+    color: grey;
+}
+.navbar img {
+    float: left;
+}
+
+.first-section {
+    background-color: rgb(43, 51, 64);
+    display: flex;
+}
+.first-section img {
+    width: 100%;
+}
+.first-section-text {
+    margin-left: 5em;
+}
+.first-section-text h1 {
+    text-transform: uppercase;
+    color: white;
+    width: 50%;
+    margin-top: 5rem;
+}
+.first-section-text p {
+    color: rgb(120, 120, 120);
+    width: 60%;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.button {
+
+    background-color: brown;
+}
+
+.Start-here {
+    margin-top: 2em;
+}
+.second-section {
+    background-color: rgb(170, 196, 91);
+    margin-top: 2em;
+    display: flex;
+}
+.second-section h1 {
+    text-transform: uppercase;
+    color: white;
+    width: 50%;
+    margin-top: 5rem;
+}
+
+.second-section-text{
+    color: rgb(120, 120, 120);
+    width: 60%;
+    font-size: small;
+    padding-left: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.second-section p {
+color: white;
+    width: 50%;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.second-section img {
+    width: 100%;
+}
+
+
+
+.card {
+    width: 100%;
+    display:flex;
+    margin-top: 3em;
+    overflow: hidden;
+    
+}
+
+
+#card-display {
+    width: 80%;
+    background-color: rgb(212, 212, 212);
+    margin: auto;
+    padding-top: 2em;
+    text-align: center;
+    justify-items: center;
+}
+
+.card-content {
+    width: 22%;
+    background-color: rgb(212, 212, 212);
+    margin: auto;
+    padding-top: 2em;
+  
+}
+
+
+
+
+  
