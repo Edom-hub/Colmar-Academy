@@ -10,28 +10,37 @@
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <div>
-                <img src="./Resource/capstone_colmar_assets/images/ic-logo.svg" width="10%">
-           </div>
-            <ul class="nav-list">
-                    <li class="list-item"> <a href="#">Home</a></li>
-                    <li class="list-item"> <a href="#">Contact</a></li>
-                    <li class="list-item"> <a href="#">Sing In</a></li>
- 
-            </ul> 
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand ml-5" href="#"><img src="./Resource/capstone_colmar_assets/images/ic-logo.svg" width="55"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+              <ul class="navbar-nav px-5">
+                <li class="nav-item active">
+                  <a class="nav-link text-dark px-3" href="#">On Campus</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark px-3" href="#">Online</a>
+                </li>
+                <li class="nav-item">
+                    <button class="border-0 bg-warning rounded px-3"><a class="nav-link text-dark" href="#"> Sign In</a></button>
+                </li>
+                
+              </ul>
+            </div>
+          </nav>
     </header>
     <main>
         <!-- Banner section -->
-        <div class="first-section">
-            <div class="img-class">
+        <div class="first-section h-100">
+            <div class="img-class ">
                 <img src="./Resource/capstone_colmar_assets/images/banner.jpg">
             </div>
                 <div class="first-section-text">
                     <h1>Learn Something new everyday</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi facere repellat tenetur soluta, sequi ratione ab molestiae adipisci quis molestias nisi vero consectetur officiis in sit asperiores maxime non perspiciatis!</p>
-                    <button type="button" class="btn btn-dark px-5">Warning</button>
+                    <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi facere repellat tenetur soluta, sequi ratione ab molestiae adipisci quis molestias nisi vero consectetur officiis in sit asperiores maxime non perspiciatis!</p>
+                    <button type="button" id="Start-here" class="btn btn-warning mr-5 px-5">Start Here</button>
                 </div>
         </div>
          <!-- Second section -->
@@ -43,26 +52,52 @@
                     <button type="button" class="btn btn-dark px-5">Warning</button>
                 </div>
                 <div class="img-class">
-                    <img src="./Resource/capstone_colmar_assets/images/banner.jpg">
+                    <img src="./Resource/capstone_colmar_assets/images/information-main.jpg">
                 </div>
-        </div>
-       <!-- card section -->
+
+                
+                <!-- <div class="col ">
+                    <div class="card m-2 " style="width: 18rem;">
+                             <img src="./Resource/capstone_colmar_assets/images/course-software.jpg"        class="card-img-top" alt="ORIENTATION-DAY">
+                        <div class="card-body">
+                            <h5 class="card-title">Orientation day</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card m-2 w-20" style="width: 18rem;">
+                             <img src="./Resource/capstone_colmar_assets/images/course-software.jpg"        class="card-img-top" alt="ORIENTATION-DAY">
+                        <div class="card-body">
+                            <h5 class="card-title">Our campus </h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div> -->
+
+              
+
+           </div>
+             
+    
+       <!-- Start learning  section -->
        
        
-       
-       <h1>Start learning</h1>
-            <div class="container d-flex m-auto w-70 center" >
+       <div class="start-learning justify-content-center text-dark">
+                <h1 class="text-dark">Start learning</h1>
+            <div class="container d-flex m-auto w-70 justify-content-center " >
    
-                <div class="row w-100 m-auto text-align-center">      
-                        <div class="card col-6 m-2 shadow " style="width: 18rem;">
-                                    <img src="./Resource/capstone_colmar_assets/images/course-software.jpg" class="card-img-top" alt="...">
+                <div class="row d-flex w-100 m-5 d-block">      
+                        <div class="card m-1 shadow " style="width: 18rem;">
+                                    <img src="./Resource/capstone_colmar_assets/images/course-software.jpg" class="card-img-top w-100" alt="...">
                                     <div class="card-body">
                                     <h5 class="card-title">Softwear Engineering </h5>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                     </div>
                                 </div>
 
-                                <div class="card col-6 m-2 shadow" style="width: 18rem;">
+                                <div class="card  m-1 shadow" style="width: 18rem;">
                                     <img src="./Resource/capstone_colmar_assets/images/course-computer-art.jpg" class="card-img-top" alt="...">
                                     <div class="card-body">
                                     <h5 class="card-title">Softwear Engineering </h5>
@@ -71,7 +106,7 @@
                                 </div>
 
 
-                                <div class="card col-4 m-2 shadow" style="width: 18rem;">
+                                <div class="card m-1 shadow" style="width: 18rem;">
                                     <img src="./Resource/capstone_colmar_assets/images/course-design.jpg" class="card-img-top" alt="...">
                                     <div class="card-body">
                                     <h5 class="card-title">Softwear Engineering </h5>
@@ -81,43 +116,25 @@
                     </div>  
 
 
-                    <div class="row w-100 m-auto text-align-center">      
-                        <div class="card col-6 m-2 shadow " style="width: 18rem;">
-                                    <img src="./Resource/capstone_colmar_assets/images/course-software.jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                    <h5 class="card-title">Softwear Engineering </h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    </div>
-                                </div>
-
-                                <div class="card col-6 m-2 shadow" style="width: 18rem;">
-                                    <img src="./Resource/capstone_colmar_assets/images/course-computer-art.jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                    <h5 class="card-title">Softwear Engineering </h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    </div>
-                                </div>
-
-
-                                <div class="card col-4 m-2 shadow" style="width: 18rem;">
-                                    <img src="./Resource/capstone_colmar_assets/images/course-design.jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                    <h5 class="card-title">Softwear Engineering </h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    </div>
-                                </div>
-                    </div>  
         </div>
+    </div>
+
 
 <!-- Video and address -->
 
-<div class="Reimagine">
-        <div class="embed-responsive embed-responsive-16by9 h-100">
-            <video class="embed-responsive-item w-50 h-50" src="./Resource/capstone_colmar_assets/videos/thesis.mp4" allowfullscreen controls></video>
-          </div>
-                <h1>Reimagine</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto similique nobis reiciendis, vel laborum itaque consequuntur assumenda minus deserunt minima quis, atque fugit quibusdam ducimus necessitatibus hic est tempora animi?</p>
-           </div>
+<div class="Reimagine d-flex m-auto">
+    <div class="row">
+            <div class="col-8 bg-secondary ">
+                <div class="embed-responsive embed-responsive-16by9 w-100 h-100">
+                    <video class="embed-responsive-item w-100" src="./Resource/capstone_colmar_assets/videos/thesis.mp4" allowfullscreen controls></video>
+                </div>
+             </div>
+                <div class="col-4 bg-secondary w-30 px-5 text-white">
+                        <h1 class="p-5 mt-3">Reimagine</h1>
+                        <p class="font-weight-light m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto similique nobis reiciendis, vel laborum itaque consequuntur assumenda minus deserunt minima quis, atque fugit quibusdam ducimus necessitatibus hic est tempora animi?</p>
+                </div>
+            </div>
+        </div>
     </main>
 </body>
 </html>
